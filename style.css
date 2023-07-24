@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "teddy_bear";
+    src: url("fonts/teddy-bear.ttf");
+}
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: #ab58c7;
+    font-family: "teddy_bear", sans-serif;
+}
+
+h2 {
+    color: rgb(220, 78, 25);
+}
+
+a {
+    color: chartreuse;
+}
+a:hover{
+    color: blue;
+}
+img {
+    width: 500px; 
+    border: 10px dotted rgb(0, 0, 0);
+    margin: 0px 0px 0px 40px; 
+}
+.image1{
+    width: 1000px;
+    height: 800px; 
+    border: 20px solid rgb(243, 219, 4);
+    margin: 10px 15px 10px 40px; 
+}
+.big_text{
+    font-size: 1.5rem;
+}
+.text{
+    border: 20px solid rgb(220, 50, 100);
+}
